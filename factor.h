@@ -1,11 +1,11 @@
 #ifndef FACTOR_H
 #define FACTOR_H
 
-#include <stdlib.hh>
+#include <stdlib.h>
 #include <unistd.h>
 #include <stdio.h>
 #define _GNU_SOURCE
 
-int factorize(char *buffer);
+void factorize(int n);
 
 #endif
